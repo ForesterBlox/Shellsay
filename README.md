@@ -17,7 +17,7 @@ run `git clone https://github.com/ForesterBlox/Shellsay.git`
 
 run `cd Shellsay`
 
-run `rustc main.rs`
+run `rustc -o shellsay main.rs`
 
 run `mkdir ~/cbin`
 
