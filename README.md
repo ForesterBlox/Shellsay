@@ -1,5 +1,5 @@
 # Shellsay
-A cowsay rip-off made by an idiot
+A cowsay rip-off written in rust by an idiot named ForesterBlox
 
 
 # Dependencies
