@@ -1,6 +1,8 @@
 from os import system
 import os
 import subprocess
+# File installer
+
 system("mkdir ~/cbin")
 home = os.path.expanduser('~')
 system(f"sudo bash -c 'echo \"{home}/cbin\" >> /etc/paths'")
