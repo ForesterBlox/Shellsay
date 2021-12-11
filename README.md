@@ -21,3 +21,6 @@ run `cd Shellsay`
 
 run `python3 installer.py`
 
+
+the source code is smaller than installer lmao
+
