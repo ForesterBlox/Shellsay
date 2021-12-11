@@ -15,5 +15,9 @@ A cowsay rip-off made by an idiot
 
 # Installation
 
+run `git clone https://github.com/ForesterBlox/Shellsay.git`
+
+run `cd Shellsay`
+
 run `python3 installer.py`
 
