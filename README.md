@@ -4,9 +4,7 @@ A cowsay rip-off written in rust by an idiot named ForesterBlox
 
 # Dependencies
 
-[Rustc](https://www.rust-lang.org)
-
-[Python3](https://www.python.org)
+[Rust](https://www.rust-lang.org)
 
 # Screenshot
 
