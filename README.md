@@ -15,12 +15,21 @@ A cowsay rip-off written in rust by an idiot named ForesterBlox
 
 # Installation
 
-run `git clone https://github.com/ForesterBlox/Shellsay.git`
+## Unix/OS X
 
-run `cd Shellsay`
+```bash
+git clone https://github.com/ForesterBlox/Shellsay.git
+cd Shellsay
+sudo make unix
+```
 
-run `python3 installer.py`
+## Windows
 
+```cmd
+git clone https://github.com/ForesterBlox/Shellsay.git
+cd Shellsay
+make windows
+```
 
 the source code is smaller than installer lmao
 
