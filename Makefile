@@ -1,16 +1,17 @@
 #!/bin/bash
-unix:
-	rustc ./src/main.rs -o ./shellsay
-	cp ./shellsay /usr/local/bin/shellsay
-	chmod +x /usr/local/bin/shellsay
-	echo "shellsay installed"
-
-windows:
-	rustc ./src/main.rs -o ./shellsay.exe
+install:
+ifeq ($(OS),Windows_NT)
+	rustc -o shellsay.exe src/main.rs
 	mkdir "C:\cbin"
 	cp ./shellsay.exe "C:\cbin"
 	setx PATH "%PATH%;C:\cbin"
+	echo "shellsay installed""
+else
+	rustc -o shellsay src/main.rs
+	cp ./shellsay /usr/local/bin
+	chmod +x /usr/local/bin/shellsay
 	echo "shellsay installed"
+endif
 
 clean:
 ifeq ($(OS),Windows_NT)
