@@ -13,21 +13,18 @@ A cowsay rip-off written in rust by an idiot named ForesterBlox
 
 # Installation
 
-## Unix/OS X
+## MacOS (homebrew)
 
-```bash
-git clone https://github.com/ForesterBlox/Shellsay.git
-cd Shellsay
-sudo make unix
+```
+brew tap foresterblox/foresterblox
+brew install shell-say
 ```
 
-## Windows
+## From source
 
-```cmd
-git clone https://github.com/ForesterBlox/Shellsay.git
-cd Shellsay
-make windows
 ```
-
+git clone https://github.com/ForesterBlox/Shellsay.git
+make install
+```
 the source code is smaller than installer lmao
 
