@@ -26,5 +26,5 @@ brew install shell-say
 git clone https://github.com/ForesterBlox/Shellsay.git
 make install
 ```
-the source code is smaller than installer lmao
+the source code is smaller than the makefile lmao
 
